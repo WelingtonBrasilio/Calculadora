@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Icon -->
+    <script src="https://kit.fontawesome.com/83ccff58df.js" crossorigin="anonymous"></script>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/icons-calculadora-50.png" type="image/x-icon">
+
+    <title>Calculadora</title>
+    </head>
+    <body>
+    
+        <div class="calculadora">
+            <div class="display" id="exibe-resultado" disabled></div>
+            <div class="calculadora-botoes">
+                <button onclick="apagaAtual()">CE</button>
+                <button onclick="apagaTudo()">C</button>
+                <button onclick="insert('/')">/</button>
+                <button onclick="insert('*')">*</button>
+                <button onclick="insert('7')">7</button>
+                <button onclick="insert('8')">8</button>
+                <button onclick="insert('9')">9</button>
+                <button onclick="insert('-')">-</button>
+                <button onclick="insert('4')">4</button>
+                <button onclick="insert('5')">5</button>
+                <button onclick="insert('6')">6</button>
+                <button onclick="insert('+')">+</button>
+                <button onclick="insert('1')">1</button>
+                <button onclick="insert('2')">2</button>
+                <button onclick="insert('3')">3</button>
+                <button onclick="insert('0')" class="zero">0</button>
+                <button onclick="insert('.')">.</button>
+                <button onclick="calcResultado()" class="igual">=</button>
+            </div>
+        </div>
+
+        <footer>
+          <h4>
+            &copy;Welington Pinheiro
+          </h4>
+        </footer>
+    <!-- JavaScript-->
+    <script src="js/script.js"></script>
+
+  </body>
+</html>

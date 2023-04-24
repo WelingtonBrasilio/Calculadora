@@ -51,7 +51,7 @@ body{
 
 button:hover{
     background-color: #fafafa;
-    color: black;
+    color: #1f1f1f;
 }
 
 .zero{
@@ -63,4 +63,9 @@ button:hover{
     grid-column: 4;
     grid-row-start: 4;
     grid-row-end: 6;
+}
+
+footer{
+    margin-top: 300px;
+    text-align: center;
 }

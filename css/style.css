@@ -29,6 +29,7 @@ body{
     color: #cdbdae;
     overflow: hidden;
     border-radius: 5px;
+    font-size: 3em;
 }
 
 .calculadora-botoes{
